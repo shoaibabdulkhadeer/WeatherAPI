@@ -9,7 +9,7 @@ const [data,setData] = React.useState('')
 const [location , setLocation] = React.useState('')
 
 
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=3e489d3c5c09911a578297513a6afb29`
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=APIKEY`
 
 
 // function to get Api with axios which is triggered by event key with onKeyPress on input after geting data then setData
